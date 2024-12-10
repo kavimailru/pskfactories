@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pskfactories</groupId>
+  <artifactId>pskfactories</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.squareup.okhttp3</groupId>
+  		<artifactId>okhttp</artifactId>
+  		<version>3.12.13</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.nanohttpd</groupId>
+  		<artifactId>nanohttpd</artifactId>
+  		<version>2.3.1</version>
+  	</dependency>
+  	<!-- https://mvnrepository.com/artifact/org.bouncycastle/bcpkix-jdk18on -->
+<dependency>
+    <groupId>org.bouncycastle</groupId>
+    <artifactId>bcpkix-jdk18on</artifactId>
+    <version>1.78.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk18on -->
+<dependency>
+    <groupId>org.bouncycastle</groupId>
+    <artifactId>bcprov-jdk18on</artifactId>
+    <version>1.78.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.bouncycastle/bctls-jdk18on -->
+<dependency>
+    <groupId>org.bouncycastle</groupId>
+    <artifactId>bctls-jdk18on</artifactId>
+    <version>1.78.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.bouncycastle/bcutil-jdk18on -->
+<dependency>
+    <groupId>org.bouncycastle</groupId>
+    <artifactId>bcutil-jdk18on</artifactId>
+    <version>1.78.1</version>
+</dependency>
+
+  	<dependency>
+  		<groupId>org.junit.jupiter</groupId>
+  		<artifactId>junit-jupiter</artifactId>
+  		<version>5.10.2</version>
+  	</dependency>
+  </dependencies>
+</project>
